@@ -57,7 +57,7 @@ var handleMouseMove = function (event) {
     if(k === 0) {
       pupil.style.transform = 'translate('+output.x.opposite+'px, '+output.y.opposite+'px)';
     } else {
-      pupil.style.transform = 'translate('+output.x.current+'px, '+output.y.current+'px)';
+      pupil.style.transform = 'translate('+output.x.opposite+'px, '+output.y.opposite+'px)';
     }
   });
 
